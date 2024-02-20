@@ -17,6 +17,12 @@ public class Titik {
 
     }
 
+      Titik(double a, double b){
+        absis = a;
+        ordinat = b;
+        counterTitik++;
+    }
+
     //deklarasi metode
     void setAbsis(double a){
         absis = a;
